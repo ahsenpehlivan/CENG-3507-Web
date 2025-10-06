@@ -1,0 +1,184 @@
+div.bodyStyle{
+    border: 1px solid white;
+    padding: 50px;
+}
+
+div.page{
+    width: min(1100px, calc(100% - 64px));
+    margin: 24px auto;
+    padding: 16px 24px;
+    border: 1px solid white;
+}
+
+header.bankHeader{
+    border: 1px solid black;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.top{
+    height: 25px;
+    border: 2px solid palevioletred;
+    background-color: pink;
+}
+
+em.titleHeader{
+    color: darkmagenta;
+    text-align: center;
+    align-content: center;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+topLeftside.headerLeft{
+    display: flex;
+}
+
+topRightside.headerRight{
+    text-decoration: underline;
+    color: gray;
+    text-align: center;
+}
+
+middle.middle{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+middleLeft.middleLeft{
+    grid-column: 1;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+    width: 200px;
+}
+
+middleMiddle.middleMiddle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-column: 2;
+}
+
+hr.full{
+  grid-column: 2;                
+  border: 0;
+  border-top: 1px solid #000;    
+  margin: 8px 0;
+  width: 100%;
+  justify-self: stretch;
+}              
+
+midHeader.welcomePart{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+div.currency{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5%;
+    line-height: 1;
+}
+
+middleRight.middleRight{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 8px;
+    grid-column: 3;
+    justify-content: space-around;
+}
+
+div.information{
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+div.user{
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+wallet.wallet{
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.loan{
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5%;
+    width: 100px;
+    text-align: center;
+    padding: 8px;
+}
+
+p.previousText{
+    text-align: center;
+}
+
+p.preBox{
+    border: 1px solid black;
+    height: 20px;
+    margin: 10px;
+    margin-inline: 20px;
+}
+
+div.previousPart{
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+bottom.bottom{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+}
+
+linkPart.bottomLinkPart{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.linkPart{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+p.DLink{
+    color: gray;
+}
+
+p.copyRight{
+    text-align: center;
+    padding-top: 30px;
+}
